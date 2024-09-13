@@ -1,0 +1,79 @@
+0 Philosopher 1 has taken a fork
+0 Philosopher 1 has taken a fork
+0 Philosopher 1 is eating
+0 Philosopher 3 has taken a fork
+0 Philosopher 3 has taken a fork
+0 Philosopher 3 is eating
+0 Philosopher 5 has taken a fork
+0 Philosopher 5 has taken a fork
+0 Philosopher 5 is eating
+1 Philosopher 7 has taken a fork
+1 Philosopher 7 has taken a fork
+1 Philosopher 7 is eating
+0 Philosopher 9 has taken a fork
+0 Philosopher 9 has taken a fork
+0 Philosopher 9 is eating
+0 Philosopher 11 has taken a fork
+0 Philosopher 11 has taken a fork
+0 Philosopher 11 is eating
+191 Philosopher 1 has finished eating
+191 Philosopher 1 is sleeping
+190 Philosopher 2 has taken a fork
+190 Philosopher 3 has finished eating
+190 Philosopher 3 is sleeping
+189 Philosopher 4 has taken a fork
+191 Philosopher 2 has taken a fork
+191 Philosopher 2 is eating
+190 Philosopher 5 has finished eating
+190 Philosopher 5 is sleeping
+189 Philosopher 6 has taken a fork
+191 Philosopher 4 has taken a fork
+191 Philosopher 4 is eating
+191 Philosopher 7 has finished eating
+191 Philosopher 7 is sleeping
+190 Philosopher 8 has taken a fork
+191 Philosopher 6 has taken a fork
+191 Philosopher 6 is eating
+190 Philosopher 9 has finished eating
+191 Philosopher 9 is sleeping
+190 Philosopher 10 has taken a fork
+192 Philosopher 8 has taken a fork
+192 Philosopher 8 is eating
+190 Philosopher 11 has finished eating
+190 Philosopher 11 is sleeping
+189 Philosopher 12 has taken a fork
+191 Philosopher 10 has taken a fork
+191 Philosopher 10 is eating
+356 Philosopher 12 has taken a fork
+356 Philosopher 12 is eating
+371 Philosopher 1 is thinking
+370 Philosopher 3 is thinking
+370 Philosopher 5 is thinking
+371 Philosopher 7 is thinking
+371 Philosopher 9 is thinking
+370 Philosopher 11 is thinking
+381 Philosopher 2 has finished eating
+381 Philosopher 2 is sleeping
+380 Philosopher 3 has taken a fork
+381 Philosopher 4 has finished eating
+381 Philosopher 4 is sleeping
+382 Philosopher 3 has taken a fork
+382 Philosopher 3 is eating
+380 Philosopher 5 has taken a fork
+381 Philosopher 6 has finished eating
+381 Philosopher 6 is sleeping
+382 Philosopher 5 has taken a fork
+382 Philosopher 5 is eating
+381 Philosopher 7 has taken a fork
+382 Philosopher 8 has finished eating
+382 Philosopher 8 is sleeping
+383 Philosopher 7 has taken a fork
+383 Philosopher 7 is eating
+381 Philosopher 9 has taken a fork
+381 Philosopher 10 has finished eating
+381 Philosopher 10 is sleeping
+380 Philosopher 11 has taken a fork
+382 Philosopher 9 has taken a fork
+382 Philosopher 9 is eating
+390, Philo 1 died
+all threads have finished execution

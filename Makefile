@@ -6,7 +6,7 @@
 #    By: ckonneck <ckonneck@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/08/28 11:07:45 by ckonneck          #+#    #+#              #
-#    Updated: 2024/09/06 14:12:16 by ckonneck         ###   ########.fr        #
+#    Updated: 2024/09/13 13:13:54 by ckonneck         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ PHILO_SRSC = philo.c
 PHILO_OBJS = $(PHILO_SRSC:.c=.o)
 PHILO_DEPS = $(PHILO_SRSC:.c=.d)
 CC = cc -pthread
-CFLAGS = -Wall -Wextra -Werror -Iinclude
+CFLAGS = -Wall -Wextra -Werror -Iinclude -fsanitize=thread
 NAME = philo
 
 all: $(NAME)

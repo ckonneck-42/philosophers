@@ -1,0 +1,17 @@
+1 Philosopher 1 has taken a fork
+1 Philosopher 1 has taken a fork
+1 Philosopher 1 is eating
+0 Philosopher 3 has taken a fork
+201 Philosopher 1 has finished eating
+201 Philosopher 1 is sleeping
+199 Philosopher 2 has taken a fork
+198 Philosopher 3 has taken a fork
+198 Philosopher 3 is eating
+333 Philosopher 1 is thinking
+398 Philosopher 3 has finished eating
+398 Philosopher 3 is sleeping
+401 Philosopher 1 has taken a fork
+399 Philosopher 2 has taken a fork
+399 Philosopher 2 is eating
+410, Philo 1 died
+all threads have finished execution
