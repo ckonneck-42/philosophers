@@ -6,26 +6,26 @@
 #    By: ckonneck <ckonneck@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/08/28 11:07:45 by ckonneck          #+#    #+#              #
-#    Updated: 2024/09/13 13:13:54 by ckonneck         ###   ########.fr        #
+#    Updated: 2024/11/07 16:09:14 by ckonneck         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 
 # Source files for Philosophers
-PHILO_SRSC = philo.c
+PHILO_SRSC = philo.c init.c routine.c utils.c observer_and_threads.c
 PHILO_OBJS = $(PHILO_SRSC:.c=.o)
 PHILO_DEPS = $(PHILO_SRSC:.c=.d)
-CC = cc -pthread
-CFLAGS = -Wall -Wextra -Werror -Iinclude -fsanitize=thread
+CC = cc  -pthread
+CFLAGS = -Wall -Wextra -Werror -Iinclude -g
 NAME = philo
-
+#-fsanitize=thread
 all: $(NAME)
 
 $(NAME): $(PHILO_OBJS)
 	$(CC) $(CFLAGS) $(PHILO_OBJS) -o $(NAME)
 	
-%.o: %.c FORCE
-	$(CC) -MMD -c $< -o $@
+%.o: %.c
+	$(CC) $(CFLAGS) -MMD -c $< -o $@
 
 -include $(PHILO_DEPS)
 
@@ -40,6 +40,9 @@ re: fclean all
 # valgrind rule
 valgrind: $(NAME)
 		valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes ./$(NAME) $(ARGS)
+helgrind: $(NAME)
+		valgrind --tool=helgrind --history-level=full ./$(NAME) $(ARGS)
+
 # extra options: --verbose --log-file=valgrind-out.txt
 #norminette rule
 norminette: $(PHILO_SRSC)
